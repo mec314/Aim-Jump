@@ -1,0 +1,16 @@
+module.exports = {
+    scene: null,
+    sound_count: 0,
+    color:"#F5F5F5",
+    grapple: false,
+    target_pos: {x: 0, y: 0},
+    player_y: 0,
+    offset: g.game.height/2+150,
+    grap_v: 1500,
+    score: 0,
+    isAtsumaru: false,
+    TILE_HEIGHT: 45,
+    TILE_WIDTH: 80,
+    time: 0,
+    isgoaled: false,
+};
